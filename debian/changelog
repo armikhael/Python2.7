@@ -1,3 +1,9 @@
+python2.7 (2.7.3-6+deb7u2+1) stable-security; urgency=low
+
+  * [a49f895] Replaces python2.7-minimal
+
+ -- Carlos Espinoza <carlosarmikhael@gmail.com>  Mon, 10 Nov 2014 19:22:09 +0000
+
 python2.7 (2.7.3-6+deb7u2) stable-security; urgency=low
 
   * Fix installation of modules in python2.7-minimal, thanks to
