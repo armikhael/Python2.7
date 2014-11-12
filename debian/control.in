@@ -52,7 +52,7 @@ Package: lib@PVER@
 Architecture: any
 Section: libs
 Priority: optional
-Depends: @PVER@ (= ${binary:Version}), ${shlibs:Depends}, ${misc:Depends}
+Depends: @PVER@ (<= ${binary:Version}), ${shlibs:Depends}, ${misc:Depends}
 Replaces: @PVER@ (<< 2.6)
 Description: Shared Python runtime library (version @VER@)
  Version @VER@ of the high-level, interactive object oriented language,
