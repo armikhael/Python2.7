@@ -1,8 +1,10 @@
-python2.7 (2.7.3-6+deb7u2+1) stable-security; urgency=low
+python2.7 (2.7.3-6+deb7u3) stable; urgency=medium
 
-  * [a49f895] Replaces python2.7-minimal
+  * python2.7: Replace python2.7-minimal (<< 2.7.3-7~). This
+    patch addresses the issue outlined in bug #702005, which has been
+    fixed for testing and unstable, but not for stable. Closes: #702005.
 
- -- Carlos Espinoza <carlosarmikhael@gmail.com>  Mon, 10 Nov 2014 19:22:09 +0000
+ -- Luis Alejandro Martínez Faneyth <luis@huntingbears.com.ve>  Sat, 10 May 2014 11:59:21 -0430
 
 python2.7 (2.7.3-6+deb7u2) stable-security; urgency=low
 

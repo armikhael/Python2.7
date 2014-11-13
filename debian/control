@@ -40,7 +40,7 @@ Priority: optional
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Recommends: python2.7
 Suggests: binfmt-support
-Replaces: python2.7 (<< 2.7.1~rc1-2~)
+Replaces: python2.7 (<= 2.7.3-6)
 Conflicts: binfmt-support (<< 1.1.2)
 Description: Minimal subset of the Python language (version 2.7)
  This package contains the interpreter and some essential modules.  It can
